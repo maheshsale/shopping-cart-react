@@ -1,3 +1,8 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
 .navbar{
       background-color: black;
       color: white;
@@ -12,12 +17,13 @@
 
 .brand-name h1{
       font-family: 'Poppins', sans-serif;
-      margin-left: 3rem;
+      margin: 10% 20%;
 }
 
 .navbar img{
       width: 3rem;
       margin: 1rem 3rem;
+      cursor: pointer;
 }
 
 .navbar button{
