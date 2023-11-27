@@ -1,0 +1,31 @@
+.navbar{
+      background-color: black;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+}
+
+.nav-right{
+      display: flex;
+      justify-content: end;
+}
+
+.brand-name h1{
+      font-family: 'Poppins', sans-serif;
+      margin-left: 3rem;
+}
+
+.navbar img{
+      width: 3rem;
+      margin: 1rem 3rem;
+}
+
+.navbar button{
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      background-color: inherit;
+      color: white;
+}
+
