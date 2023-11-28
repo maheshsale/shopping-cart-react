@@ -12,7 +12,7 @@
 
 .nav-right{
       display: flex;
-      justify-content: end;
+      justify-content: flex-end;
 }
 
 .brand-name h1{
