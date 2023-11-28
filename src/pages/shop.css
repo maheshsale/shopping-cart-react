@@ -1,6 +1,7 @@
 .products{
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
+      flex-wrap:wrap;
+      justify-content:start;
+      gap: 5%;
 }
 

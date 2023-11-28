@@ -6,10 +6,10 @@ export const Product = (props) => {
 
       return(
             <div className="product">
-                  <p><b>{name}</b></p>
                   <img src={image} alt={name} />
-                  <p><b>Price: {price} ₹</b></p>
-                  <button>Add to Cart</button>
+                  <p><b>{name}</b></p>
+                  <p>{price} ₹</p>
+                  <button className="addToCartBtn">Add to Cart</button>
             </div>
       );
 }
