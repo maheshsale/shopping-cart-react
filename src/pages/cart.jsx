@@ -24,6 +24,7 @@ export const Cart = () => {
                   <div className="total-bill">
                         <p><b>Total Items: {totalCartItems}</b></p>
                         <p><b>Cart total price: {cartTotal}</b></p>
+                        <button className="checkout-btn">Proceed to Checkout</button>
                   </div>
             </div>
       );
