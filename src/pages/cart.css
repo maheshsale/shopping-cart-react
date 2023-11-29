@@ -1,0 +1,12 @@
+.cart{
+      display: flex;
+      justify-content:space-between;
+}
+
+.cart-items{
+      margin-left: 20%;
+}
+
+.total-bill{
+      margin-right: 20%;
+}
