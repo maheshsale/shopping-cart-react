@@ -21,6 +21,7 @@
 .brand-name h1{
       font-family: 'Poppins', sans-serif;
       margin: 10% 20%;
+      cursor: pointer;
 }
 
 .navbar img{
@@ -36,6 +37,10 @@
       font-weight: 600;
       background-color: inherit;
       color: white;
+}
+
+.navbar button:hover{
+      text-decoration: underline;
 }
 
 .cart-image{

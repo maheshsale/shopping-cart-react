@@ -12,7 +12,7 @@ const Navbar = () => {
       return(
             <nav className="navbar">
                   <div className="brand-name">
-                        <h1>MahiCart.com</h1>
+                        <h1 onClick={() => navigate('/')}>MahiCart.com</h1>
                   </div>
                   <div className="nav-right">
                         <button onClick={() => navigate('/')}>Shop</button>

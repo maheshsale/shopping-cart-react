@@ -29,3 +29,7 @@
       padding: 3px 2px;
 }
 
+.addToCartBtn:hover{
+      background-color: green;
+      color: white;
+}
